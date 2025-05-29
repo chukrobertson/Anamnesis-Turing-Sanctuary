@@ -1,0 +1,28 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore editor/project-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS metadata
+ehthumbs.db
+desktop.ini
+
+# If you use Jupyter or Python later
+__pycache__/
+.ipynb_checkpoints/
+
+# Node/npm (in case of future frontend experiments)
+node_modules/
+
+# Sanctuary-specific exclusions
+.anam
